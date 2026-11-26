@@ -8,8 +8,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f6f8f8",
-  "theme_color": "#5a3b8c",
+  "background_color": "#f4f8f3",
+  "theme_color": "#146c43",
   "categories": ["utilities", "security"],
   "icons": [
     { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
