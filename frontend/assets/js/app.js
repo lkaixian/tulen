@@ -1119,7 +1119,7 @@
     document.documentElement.dataset.theme = state.theme;
     $("#themeBtn").setAttribute("aria-pressed", state.theme === "dark");
     $("#themeLbl").textContent = t(state.theme === "dark" ? "th_light" : "th_dark");
-    $('meta[name="theme-color"]').setAttribute("content", state.theme === "dark" ? "#0e0b1d" : "#5a3b8c");
+    $('meta[name="theme-color"]').setAttribute("content", state.theme === "dark" ? "#07140f" : "#146c43");
   }
   /* Theme switch: the new theme grows as a circle from the button (View Transitions API). Browsers without it get a short
      colour fade. No animation for reduced motion or easy mode. */

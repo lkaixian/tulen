@@ -4,7 +4,7 @@
    - /api/ and any cross-origin request (the backend, the LLM, fonts) are never touched, so no letter text,
      result or user data can end up in this cache.
    - Network first, cache as the fallback, so a new deploy is never hidden behind an old copy. */
-const VERSION = "faham-shell-v2";
+const VERSION = "faham-shell-v3";
 const SHELL = [
   "./", "index.html", "embed.html", "manifest.webmanifest",
   "assets/css/styles.css", "assets/css/fonts.css", "assets/fonts/ubuntu-latin-400.woff2", "assets/fonts/ubuntu-latin-500.woff2", "assets/fonts/ubuntu-latin-700.woff2",
